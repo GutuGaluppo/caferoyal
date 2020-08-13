@@ -21,7 +21,7 @@ function App() {
 					<Route path='/directors' exact component={ Directos }/>
 					<Route path='/entertainment' component={ Entertainment }/>
 					<Route path='/about' component={ About }/>
-					<Route path='/contact' component={ Contact }/>
+					<Route path='/contacts' component={ Contact }/>
 					<Route path='/upload' component={ FileUpload }/>
 				</Switch>
 				<Footer/>
