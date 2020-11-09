@@ -14,7 +14,7 @@ import Footer from './Components/Footer';
 function App() {
 	return (
 		<Router>
-			<div className="container mt-4">
+			<div>
 				<Nav />
 				<Switch>
 					<Route path='/' exact component={ Home }/>
