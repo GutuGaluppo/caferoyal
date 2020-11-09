@@ -1,19 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
 	font-family: "Montserrat", sans-serif;
 }
 
 nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	min-height: 5vh;
-	padding: 0 20px;
+	align-items: baseline;
+	width: 100vw;
+	padding: 1.5vh;
 	background-color: #fffcdf;
 	/* background-color: #2d1915; */
 	color: #2d1915;
-	min-height: 10px;
-	position: static;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 }
 
 .nav-link {
@@ -26,7 +38,6 @@ nav {
 	display: flex;
 	justify-content: center;
 	background-color: #0b0605;
-	/* margin: 50px; */
 }
 .directorsBg {
 	display: flex;
@@ -50,11 +61,12 @@ nav {
 
 .directors-list {
 	position: absolute;
+	display: flex;
+	flex-direction: column;
 	width: auto;
-	height: 300px;
-	background: linear-gradient(#fffcdf 20%, #8a4d41, #2d1915 );
-	color: #fffcdf;
-	padding: 10px;
+	background: #fffcdf;
+	/* background: linear-gradient(#fffcdf 20%, #8a4d41, #2d1915); */	
+	padding: 1.2rem;
 	border-radius: 0px 0px 30px 30px;
 	z-index: 2;
 }
@@ -64,10 +76,10 @@ p {
 	color: #fffcdf;
 }
 
-h1{
-	color:#fffcdf;
+h1 {
+	color: #fffcdf;
 }
 
-h2{
-	color:#fffcdf;
+h2 {
+	color: #fffcdf;
 }
