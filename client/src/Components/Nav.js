@@ -16,7 +16,7 @@ export default function Nav() {
 		textTransform: 'uppercase',
 		fontSize: '0.9rem',
 		fontWeight: 'bold',
-		margin: '0 10px',
+		padding: '10px'
 	}
 	
 	return (
@@ -29,29 +29,28 @@ export default function Nav() {
 					<ul className='nav-link'>
 						<li
 							style={navStyle}
-							onMouseEnter={handleOpenList}
-							onMouseLeave={handleOpenList}
+							onClick={handleOpenList}
 						>
 							Directors
 							{openList &&
 								<div className='directors-list'>
 									<Link style={navStyle} to='/joca'>
-										<li>Georgea Guerr-Peixe _Joca</li>
+										Georgea Guerr-Peixe _Joca
 									</Link>
 									<Link style={navStyle} to='/irmaos-meirelles'>
-										<li>Irmãos Meirelles</li>
+										Irmãos Meirelles
 									</Link>
 									<Link style={navStyle} to='/julio-hey'>
-										<li>Julio Hey</li>
+										Julio Hey
 									</Link>
 									<Link style={navStyle} to='/karoline-maia'>
-										<li>Karoline Maia</li>
+										Karoline Maia
 									</Link>
 									<Link style={navStyle} to='/luiz-villaca'>
-										<li>Luiz Villaça</li>
+										Luiz Villaça
 									</Link>
 									<Link style={navStyle} to='/tuco'>
-										<li>Tuco</li>
+										Tuco
 									</Link>
 								</div>
 							}
