@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import facebook from '../img/faceLogo.png'
-import vimeo from '../img/vimeoLogo.png'
-import instagram from '../img/instaLogo.png'
+import facebook from '../logo/faceLogo.png'
+import vimeo from '../logo/vimeoLogo.png'
+import instagram from '../logo/instaLogo.png'
 
 export default function Footer() {
 	const footerStyle = {
