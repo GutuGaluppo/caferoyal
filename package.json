@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/GutuGaluppo/caferoyal#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-fileupload": "^1.1.9",
     "react-router-dom": "^5.2.0"
   },
